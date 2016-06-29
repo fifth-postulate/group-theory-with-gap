@@ -1,4 +1,4 @@
-# group-theory-with-gap
+# Group Theory with GAP
 An introduction to group theory with emphasis on concrete calculations
 
 ## Goal
