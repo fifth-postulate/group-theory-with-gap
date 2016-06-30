@@ -20,5 +20,7 @@ group theory.
 If we have a cube, and a number of colors, how many different ways are there to
 color the cube taking rotations in account?
 
+![Outline](https://raw.githubusercontent.com/fifth-postulate/group-theory-with-gap/master/graphviz/polya.gv.png)
+
 [wikipedia.group-theory]: https://en.wikipedia.org/wiki/Group_theory
 [gap]: http://www.gap-system.org/
