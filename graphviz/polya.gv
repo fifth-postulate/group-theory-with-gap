@@ -8,8 +8,10 @@ strict graph {
   6 [ label = "Pemutation Group" ]
   7 [ label = "Homomorphism" ]
   8 [ label = "Group" ]
+  9 [ label = "Conjugacy Classes" ]
   1 -- { 2 3 }
   2 -- { 4 }
+  3 -- { 9 }
   4 -- { 5 }
   5 -- { 6, 7 }
   6 -- { 8 }
