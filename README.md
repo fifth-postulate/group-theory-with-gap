@@ -12,5 +12,13 @@ algebra system. GAP is described as
 > thousands of functions implementing algebraic algorithms written in the GAP
 > language as well as large data libraries of algebraic objects. 
 
+## Outline
+Here we list the questions we want to answer and how we are answering them with
+group theory.
+
+### How many different kinds of colored cubes are there
+If we have a cube, and a number of colors, how many different ways are there to
+color the cube taking rotations in account?
+
 [wikipedia.group-theory]: https://en.wikipedia.org/wiki/Group_theory
 [gap]: http://www.gap-system.org/
