@@ -14,7 +14,7 @@ _Burnside's Lemma_.
 >
 > Here {$$}X^{g}{/$$} is defined as {$$}\{x \in X | x \cdot g = x\}{/$$}.
 
-Before we proof Burnsides' lemma we will show how the lemma can be used count
+Before we proof Burnside's lemma we will show how the lemma can be used count
 combinatorial objects.
 
 ## Necklaces
