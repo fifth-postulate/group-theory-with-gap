@@ -45,7 +45,25 @@ The table below summarizes the calculations needed for Burnside's lemma to work
 The sum of these numbers is 84 so according to Burnside's lemma the number of
 two-colored necklaces of size 6 is {$$}84/6 = 14{/$$}.
 
+## Proof
+In order to proof Burnside's lemma we will count the elements in the set
+{$$}\{(x, g) | x \cdot g = x \}{/$$}. Notice that it equals
+{$$}\sum_{g \in G} |X^{g}|{/$$}. It also equals {$$}\sum_{x \in X} |G_{x}|{/$$}.
+By the Orbit-Stabiliser theorem each {$$}|G_{x}|{/$$} equals
+{$$}\frac{|G|}{|x \cdot G|}{/$$}. Because orbits partition {$$}X{/$$}, we have
+{$$}x \cdot G = y \cdot G{/$$} whenever {$$}y \in x \cdot G{/$$}. If we pick
+representatives {$$}X/G{/$$} for each orbits. We have
+
+{$$}
+\sum_{x \in X} \frac{|G|}{|x \cdot G|} = 
+|G| \sum_{z \in X/G} \sum_{y \in z \cdot G} \frac{1}{|z \cdot G|} =
+|G| \sum_{z \in X/G} 1 =
+|G| |X/G|
+{/$$}
+
+from which Burnside's lemma is shown.
+
 ## Exercises
 1. Generalize necklaces to {$$}m{/$$} colors and {$$}n{/$$} beads and show that
    the rotation relation is an equivalence relation.
-2. Check the table of counts of fixed necklaces.
+2. Check the table of fixed necklaces.
