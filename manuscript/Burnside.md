@@ -22,7 +22,9 @@ We will investigate [mathematical necklaces][necklace]. We start with a set of
 _colors_ {$$}\{b, w\}{/$$} which we will use as the alphabet for the set of
 _words_ of length 6. We will call two words {$$}u{/$$} and {$$}v{/$$} equivalent
 if and only if {$$}u{/$$} can be transformed into {$$}v{/$$} by a number of
-rotations.
+rotations. A _rotation_ of the word {$$}c\cdot w{/$$} is defined as {$$}w\cdot
+c{/$$} where {$$}c{/$$} is a color. A _necklace_ is an equivalence class of
+words. 
 
 ## Exercises
 1. Generalize necklaces to {$$}m{/$$} colors and {$$}n{/$$} beads and show that
