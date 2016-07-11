@@ -32,15 +32,6 @@ if we count the number of orbits we know the number of necklaces.
 
 The table below summarizes the calculations needed for Burnside's lemma to work
 
-| {$$}g{/$$}      | {$$}\|X^{g}\|{/$$} |
-|-----------------|--------------------|
-| {$$}e{/$$}      | 64                 |
-| {$$}r{/$$}      | 2                  |
-| {$$}r^{2}{/$$}  | 4                  |
-| {$$}r^{3}{/$$}  | 8                  |
-| {$$}r^{4}{/$$}  | 4                  |
-| {$$}r^{5}{/$$}  | 2                  |
-
 The sum of these numbers is 84 so according to Burnside's lemma the number of
 two-colored necklaces of size 6 is {$$}84/6 = 14{/$$}.
 
