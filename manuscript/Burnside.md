@@ -49,5 +49,3 @@ two-colored necklaces of size 6 is {$$}84/6 = 14{/$$}.
 1. Generalize necklaces to {$$}m{/$$} colors and {$$}n{/$$} beads and show that
    the rotation relation is an equivalence relation.
 2. Check the table of counts of fixed necklaces.
-
-[necklace]: 
