@@ -5,7 +5,7 @@
 In this chapter we will answer this question and many others with the aid of
 _Burnside's Lemma_.
 
-*Lemma _(Burnside)_*
+**Lemma _(Burnside)_**
 > Let {$$}G{/$$} be a group acting on a set {$$}X{/$$}. The number of orbits of
 > this action {$$}X/G{/$$} is equal to
 
