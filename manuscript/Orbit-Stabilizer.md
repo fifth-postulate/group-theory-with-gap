@@ -12,6 +12,18 @@ theorem_ can be used to answer that question.
 >|G| = |x \cdot G| |G_{x}|
 >{/$$}
 
+How do we use this?
+
+## Order of the symmetry group of the Cube
+The the symmetry group of the cube acts on the faces of the cube. We can
+determine the order of the group by considering the orbit of a face and the
+stabilizer of a face.
+
+Consider the top face. There are rotations that move the top face to any face of
+the cube. The size of the orbit of the top face is {$$}6{/$$}. There are
+{$$}4{/$$} rotations that leave the top face fixed. Multiplying these numbers
+provides us with the order of the symmetry group of the cube: {$$}24{/$$}.
+
 ## Proof
 Let group {$$}G{/$$}, set {$$}X{/$$} on which {$$}G{/$$} acts and 
 {$$}x \in X{/$$} be given. We will define a bijection between the elements of
@@ -34,3 +46,5 @@ this the Orbit Stabilizer theorem follows.
 1. What are the orders of the symmetry groups of the platonic solids?
 2. The symmetry group of the cube acts on the diagonals of the cube. How large
    is the stabilizer of one diagonal?
+3. Knowing the order of the symmetry group of the cube, list the permutations of
+   the symmetry group of the cube acting on the faces.
