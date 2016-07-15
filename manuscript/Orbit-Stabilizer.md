@@ -29,3 +29,8 @@ that {$$}y = x \cdot g{/$$}. Then {$$}\phi(G_{x}g) = x \cdot g = y{/$$}. So
 Because {$$}\phi{/$$} is a bijection {$$}|x \cdot G|{/$$} equals the index of
 {$$}G_{x}{/$$} in {$$}G{/$$} which is {$$}|G : G_{x}| = |G|/|G_{x}|{/$$}. From
 this the Orbit Stabilizer theorem follows. 
+
+## Excercise
+1. What are the orders of the symmetry groups of the platonic solids?
+2. The symmetry group of the cube acts on the diagonals of the cube. How large
+   is the stabilizer of one diagonal?
