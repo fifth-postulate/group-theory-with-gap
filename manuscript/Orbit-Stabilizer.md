@@ -42,6 +42,50 @@ Because {$$}\phi{/$$} is a bijection {$$}|x \cdot G|{/$$} equals the index of
 {$$}G_{x}{/$$} in {$$}G{/$$} which is {$$}|G : G_{x}| = |G|/|G_{x}|{/$$}. From
 this the Orbit Stabilizer theorem follows. 
 
+## GAP
+We will determine the number of the rotational symmetries of the cube. We will
+use a permutation representation that acts on the faces of the cube.
+
+```gap
+cube := Group([(2, 3, 4, 5), (1, 2, 6, 4)]);
+```
+
+GAP can determine the order of this group with the `Order` function.
+
+```gap
+Order(cube);
+```
+
+This tells use that there are 24 rotational symmetries. We would like to verify
+this number with the aid of the Orbit-Stabilizer theorem.
+
+We can determine the size of the orbit of 1 with the following expression.
+
+```gap
+Size(Orbit(cube, 1));
+```
+
+We learn that the cube group acts transitively on the faces. The stabilizer of 1
+is returned by
+
+```gap
+stab := Stabiliser(cube, 1);
+```
+
+This subgroup is cyclic.
+
+```gap
+IsCyclic(stab);
+```
+
+and had order 4.
+
+```gap
+Order(stab);
+```
+
+Confirming that the cube group has {$$}6 \times 4 = 24{/$$} elements.
+
 ## Excercise
 1. What are the orders of the symmetry groups of the platonic solids?
 2. The symmetry group of the cube acts on the diagonals of the cube. How large
