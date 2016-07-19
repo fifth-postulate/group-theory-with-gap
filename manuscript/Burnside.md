@@ -97,7 +97,7 @@ colorings := Filtered(
 );
 ```
   
-Because each vertex has two choices we expect `2^8 = 256` colorings.
+Because each vertex has two choices we expect {$$}2^8 = 256{\$$} colorings.
 
 ```gap
 Size(colorings);
