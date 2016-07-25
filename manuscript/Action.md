@@ -3,7 +3,7 @@
 
 In this chapter we are going to define what we mean by a _group action_. 
 
-> *Definition* Let {$$}G{/$$} be a group and {$$}X{/$$} a set. A function
+> **Definition** Let {$$}G{/$$} be a group and {$$}X{/$$} a set. A function
 > {$$}\phi : X \times G \rightarrow X{/$$} is called an _action_ if the
 > following rules apply for all {$$}x \in X{/$$} and {$$}g, h \in G{/$$} 
 >
@@ -13,5 +13,17 @@ In this chapter we are going to define what we mean by a _group action_.
 If the action is clear from the context we will often use the following
 shorthand in notation: we write {$$}x \cdot g{/$$} for {$$}\phi(x, g){/$$}.
 
+## Examples
+In this section we will provide some examples of action. Throughout this section
+a group {$$}G{/$$} and a set {$$}X{/$$} that {$$}G{/$$} acts upon are given.
+
+1. **Trivial action**. For all {$$}x \in X{/$$} define {$$}x \cdot g := x{/$$}.
+2. **Right multiplication**. {$$}G{/$$} acts on itself by right multiplication,
+   i.e. {$$}h \cdot g = hg{/$$} is an action.
+3. **Conjugation**. {$$}G{/$$} acts on itself by conjugation, i.e.
+   {$$}h \cdot g = g^{-1} h g{/$$}.
+
+
 ## Exercises
 1. Express the rules of an action in the shorthand notation.
+2. Verify that the examples are actual groups actions.
