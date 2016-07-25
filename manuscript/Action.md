@@ -55,6 +55,13 @@ In other words $x \cdot G \subset y \cdot G$. Because the argument is symmetric
 in the arguments we know that {$$}x \cdot G = y \cdot G{/$$}. This proves that
 the orbits of an action partition the underlying set.
 
+## Properties
+We will now list some properties that an action can have. 
+1. **Transitive**. An action is **transitive** if an there is only one orbit.
+2. **Faithful**. An action is **faithful* if for every distinct
+   {$$}g,h \in G{/$$} there exist an {$$}x \in X{/$$} such that
+   {$$}x \cdot g \neq x \cdot h{/$$}.
+
 ## Exercises
 1. Express the rules of an action in the shorthand notation.
 2. Verify that the examples are actual groups actions.
