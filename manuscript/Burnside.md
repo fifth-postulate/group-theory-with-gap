@@ -9,12 +9,12 @@ _Burnside's Lemma_.
 > The number of orbits of this action {$$}X/G{/$$} is equal to
 >
 >{$$}
->\frac{1}{|G|}\sum_{g\in G} X^{g}
+>\frac{1}{|G|}\sum_{g\in G} |X^{g}|
 >{/$$}
 >
 > Here {$$}X^{g}{/$$} is defined as {$$}\{x \in X | x \cdot g = x\}{/$$}.
 
-Before we proof Burnside's lemma we will show how the lemma can be used count
+Before we prove Burnside's lemma we will show how the lemma can be used count
 combinatorial objects.
 
 ## Necklaces
@@ -46,7 +46,7 @@ The sum of these numbers is 84 so according to Burnside's lemma the number of
 two-colored necklaces of size 6 is {$$}84/6 = 14{/$$}.
 
 ## Proof
-In order to proof Burnside's lemma we will count the elements in the set
+In order to prove Burnside's lemma we will count the elements in the set
 {$$}\{(x, g) | x \cdot g = x \}{/$$}. Notice that it equals
 {$$}\sum_{g \in G} |X^{g}|{/$$}. It also equals {$$}\sum_{x \in X} |G_{x}|{/$$}.
 By the Orbit-Stabiliser theorem each {$$}|G_{x}|{/$$} equals
@@ -72,7 +72,7 @@ vertices.
 cube := Group([(1, 2, 3, 4)(5, 6, 7, 8), (1, 4, 8, 5)(2, 3, 7, 6)]);
 ```
 
-How do we know this is a correct. It certainly is a subgroup. By the
+How do we know this is a correct? It certainly is a subgroup. By the
 [Orbit-Stabilizer theorem][group-action] we can figure out that the order
 should be `24`. 
 
@@ -103,13 +103,12 @@ Because each vertex has two choices we expect {$$}2^8 = 256{\$$} colorings.
 Size(colorings);
 ```
 
-Two colorings are the same if we can obtain one from the other by a rotation of
-the cube. The `cube` group induces an action on the colorings, and two colorings
-are the same precisely when they are in the same orbit.
+Two colorings considered are the same if we can obtain one from the other by a
+rotation of the cube. The `cube` group induces an action on the colorings, and
+two colorings are the same precisely when they are in the same orbit.
 
-Knowing the number of orbits this actions has is knowing the number of different
-colorings. Because the group and the G-set are both small, we can calculate it
-directly.
+Knowing the number of orbits is knowing the number of different colorings.
+Because the group and the G-set are both small, we can calculate it directly. 
 
 For this we need to tell GAP how to compute the action. We will define the
 `OnFunctions` function for this
