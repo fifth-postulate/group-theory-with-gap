@@ -51,7 +51,7 @@ y = y \cdot e = y \cdot hh^{-1} = (y \cdot h) \cdot h^{-1} =
 (x \cdot g) \cdot h^{-1} = x \cdot gh^{-1}
 {/$$}
 
-In other words $x \cdot G \subset y \cdot G$. Because the argument is symmetric
+In other words {$$}x \cdot G \subset y \cdot G{/$$}. Because the argument is symmetric
 in the arguments we know that {$$}x \cdot G = y \cdot G{/$$}. This proves that
 the orbits of an action partition the underlying set.
 
