@@ -6,7 +6,6 @@ strict graph {
   4 [ label = "Orbit-Stabilizer" ]
   5 [ label = "Action" ]
   6 [ label = "Permutation Group" ]
-  7 [ label = "Homomorphism" ]
   8 [ label = "Group" ]
   9 [ label = "Conjugacy Classes" ]
   10 [ label = "Lagrange" ]
@@ -15,9 +14,8 @@ strict graph {
   2 -- { 4 }
   3 -- { 9 }
   4 -- { 5, 10 }
-  5 -- { 6, 7 }
+  5 -- { 6 }
   6 -- { 8 }
-  7 -- { 8 }
   10 -- { 11 }
   11 -- { 8 }
 }
