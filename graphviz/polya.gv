@@ -5,7 +5,7 @@ strict graph {
   3 [ label = "Class Index" ]
   4 [ label = "Orbit-Stabilizer" ]
   5 [ label = "Action" ]
-  6 [ label = "Pemutation Group" ]
+  6 [ label = "Permutation Group" ]
   7 [ label = "Homomorphism" ]
   8 [ label = "Group" ]
   9 [ label = "Conjugacy Classes" ]
