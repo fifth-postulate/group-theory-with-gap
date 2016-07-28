@@ -63,6 +63,45 @@ We will now list some properties that an action can have.
    {$$}g,h \in G{/$$} there exist an {$$}x \in X{/$$} such that
    {$$}x \cdot g \neq x \cdot h{/$$}.
 
+## GAP
+
+An action is represented by a function that maps an element and a group element
+to another element. For example the following function represents the identity
+action
+
+```gap
+Id := function(omega, g)
+    return omega;
+end
+```
+
+GAP knows a lot of
+[actions](http://www.gap-system.org/Manuals/doc/ref/chap41.html). Here we will
+create an action on the power set of {$$}\{1, \ldots, 8\}{/$$}.
+
+```gap
+ps := Combinations([1..8]);
+```
+
+The symmetric group of degree 8 acts on the power set. We can check that this is
+not a transitive action with the `IsTransitive` function.
+
+```gap
+IsTransitive(s8, ps, OnSets)
+```
+
+If we look at a orbit.
+
+```gap
+orbit := Orbit(s8,  [1..5], OnSets);
+```
+
+The group will act transitively.
+
+```gap
+IsTransitive(s8, orbit, OnSets);
+```
+
 ## Exercises
 1. Express the rules of an action in the shorthand notation.
 2. Verify that the examples are actual groups actions.
