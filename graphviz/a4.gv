@@ -1,0 +1,42 @@
+digraph lattice {
+size = "6,6";
+"s1" [label="1", color=white];
+"s2" [label="2", color=white];
+"s3" [label="3", color=white];
+"s4" [label="4", color=white];
+"s12" [label="12", color=white];
+"s12"->"s4" [color=white,arrowhead=none];
+"s4"->"s3" [color=white,arrowhead=none];
+"s3"->"s2" [color=white,arrowhead=none];
+"s2"->"s1" [color=white,arrowhead=none];
+"1x1" [label="1", shape=box];
+{ rank=same; "s1" "1x1";}
+"2x1" [label="2-1", shape=circle];
+"2x2" [label="2-2", shape=circle];
+"2x3" [label="2-3", shape=circle];
+{ rank=same; "s2" "2x1" "2x2" "2x3";}
+"3x1" [label="3-1", shape=circle];
+"3x2" [label="3-2", shape=circle];
+"3x3" [label="3-3", shape=circle];
+"3x4" [label="3-4", shape=circle];
+{ rank=same; "s3" "3x1" "3x2" "3x3" "3x4";}
+"4x1" [label="4", shape=box];
+{ rank=same; "s4" "4x1";}
+"5x1" [label="5", shape=box];
+{ rank=same; "s12" "5x1";}
+"2x1" -> "1x1" [arrowhead=none];
+"2x2" -> "1x1" [arrowhead=none];
+"2x3" -> "1x1" [arrowhead=none];
+"3x1" -> "1x1" [arrowhead=none];
+"3x2" -> "1x1" [arrowhead=none];
+"3x3" -> "1x1" [arrowhead=none];
+"3x4" -> "1x1" [arrowhead=none];
+"4x1" -> "2x1" [arrowhead=none];
+"4x1" -> "2x2" [arrowhead=none];
+"4x1" -> "2x3" [arrowhead=none];
+"5x1" -> "4x1" [arrowhead=none];
+"5x1" -> "3x1" [arrowhead=none];
+"5x1" -> "3x2" [arrowhead=none];
+"5x1" -> "3x3" [arrowhead=none];
+"5x1" -> "3x4" [arrowhead=none];
+}
