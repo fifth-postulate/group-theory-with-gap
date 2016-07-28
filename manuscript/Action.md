@@ -59,7 +59,7 @@ the orbits of an action partition the underlying set.
 We will now list some properties that an action can have.
 
 1. **Transitive**. An action is **transitive** if an there is only one orbit.
-2. **Faithful**. An action is **faithful* if for every distinct
+2. **Faithful**. An action is **faithful** if for every distinct
    {$$}g,h \in G{/$$} there exist an {$$}x \in X{/$$} such that
    {$$}x \cdot g \neq x \cdot h{/$$}.
 
