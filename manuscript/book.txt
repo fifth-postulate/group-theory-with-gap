@@ -1,3 +1,4 @@
+Cosets.md
 Lagrange.md
 Action.md
 Orbit-Stabilizer.md
