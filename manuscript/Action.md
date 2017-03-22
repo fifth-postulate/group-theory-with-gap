@@ -43,7 +43,7 @@ Let a group {$$}G{/$$} act on a set {$$}X{/$$}.
 {/$$}
 
 because {$$}x = x \cdot e \in x \cdot G{/$$}. Furthermore, if 
-{$$}x \cdot G \cup y \cdot G{/$$} is not empty, there exist a {$$}z \in X{/$$}
+{$$}x \cdot G \cap \cdot G{/$$} is not empty, there exist a {$$}z \in X{/$$}
 and {$$}g,h \in G{/$$} such that: {$$}z = x \cdot g = y \cdot h{/$$}. But then
 
 {$$}
