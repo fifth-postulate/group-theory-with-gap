@@ -27,7 +27,7 @@ v = ve = v(hh^{-1}) = (vh)h^{-1} = uh^{-1}
 {/$$}
 
 Last on our agenda is showing that the relation is transitive. Let 
-{$$}u,v,w \in G{/$$} such that {$$}u{/$$} is related to {$$}v{/$$} and {$$}v{$$}
+{$$}u,v,w \in G{/$$} such that {$$}u{/$$} is related to {$$}v{/$$} and {$$}v{/$$}
 is related to {$$}w{/$$}. We will show that {$$}u{/$$} is related to {$$}w{/$$}.
 Then there exist {$$}y,z \in H{/$$} such that {$$}u = vz{/$$} and {$$}v =
 wy{/$$}. Hence
