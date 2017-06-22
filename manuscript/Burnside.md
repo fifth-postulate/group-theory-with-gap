@@ -178,3 +178,4 @@ This answer agrees with the direct calculation.
 1. Generalize necklaces to {$$}m{/$$} colors and {$$}n{/$$} beads and show that
    the rotation relation is an equivalence relation.
 2. Check the table of fixed necklaces.
+3. Use GAP to check determine the number of necklaces.
